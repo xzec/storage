@@ -1,0 +1,57 @@
+:root {
+  --bg: url('https://raw.githubusercontent.com/xzec/storage/main/netflix-peanut-puppy.png');
+}
+
+/* BACKGROUND IMAGE */
+#loginPage {
+  background: var(--bg);
+  background-size: cover;
+}
+.backdropImage {
+  display: none;
+}
+.backgroundContainer {
+  background-color: rgba(0, 0, 0, 0);
+  background-image: var(--bg);
+  filter: blur(4px) brightness(0.6);
+  background-size: cover;
+}
+/* END BACKGROUND IMAGE */
+
+/* TRANSPARENT TOP MENU */
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred {
+  background: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.noHomeButtonHeader {
+  background: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+/* END TRANSPARENT TOP MENU */
+
+/* ENLARGE TAB BUTTONS */
+.headerTabs.sectionTabs {
+  text-size-adjust: 110%;
+  font-size: 110%;
+}
+.pageTitle {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.emby-tab-button {
+  padding: 1.75em 1.25em;
+}
+/* END ENLARGE TAB BUTTONS */
+
+/* NARROW LOGIN PAGE */
+#loginPage .padded-left.padded-right.padded-bottom-page {
+  max-width: 30em;
+  margin: auto;
+}
+/* END NARROW LOGIN PAGE */
+
+/* HIDE JOIN A GROUP */
+.headerSyncButton {
+  display: none;
+}
+/* END HIDE JOIN A GROUP */
